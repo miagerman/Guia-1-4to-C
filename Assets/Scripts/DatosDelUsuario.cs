@@ -9,18 +9,19 @@ public class DatosDelUsuario : MonoBehaviour
     public float estaturaUsuario;
     public bool esDonante;
 
-
+    // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Mi nombre es " + nombreUsuario);
-        Debug.Log("Tengo " + edadUsuario + " años");
-        Debug.Log("Mido " + estaturaUsuario + " metros");
-        Debug.Log("Es " + esDonante + " que soy donante de órganos");
+        Debug.Log("Mi nombre es " + nombreUsuario + 
+                  ", tengo " + edadUsuario + 
+                  " años, mido " + estaturaUsuario + 
+                  " metros y " + esDonante  + 
+                  " soy donante de órganos.");
     }
-       // Update is called once per frame
+
+    // Update is called once per frame
     void Update()
     {
         
     }
 }
-

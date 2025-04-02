@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class DatosDelUsuario : MonoBehaviour
 {
     public string nombreUsuario;
@@ -18,7 +17,10 @@ public class DatosDelUsuario : MonoBehaviour
         Debug.Log("Mido " + estaturaUsuario + " metros");
         Debug.Log("Es " + esDonante + " que soy donante de órganos");
     }
+       // Update is called once per frame
+    void Update()
+    {
+        
+    }
 }
-
-
 

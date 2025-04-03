@@ -15,7 +15,7 @@ public class DotosDelUsuario : MonoBehaviour
         Debug.Log("Mi nombre es " + nombreUsuario +
                   ", tengo " + edadUsuario +
                   " años, mido " + alturaUsuario +
-                  " metros y " + esDonante +
+                  " metros y es " + esDonante +
                   " soy donante de órganos.");
 
     }
